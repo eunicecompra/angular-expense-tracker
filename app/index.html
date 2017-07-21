@@ -21,6 +21,10 @@
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
   <script src="core/date-format/date-format.module.js"></script>
+  <script src="expense-detail/expense-detail.module.js"></script>
+  <script src="expense-detail/expense-detail.component.js"></script>
+  <script src="expense-input/expense-input.module.js"></script>
+  <script src="expense-input/expense-input.component.js"></script>
   <script src="view1/view1.js"></script>
   <script src="view2/view2.js"></script>
   <script src="components/version/version.js"></script>
@@ -36,6 +40,14 @@
     <div class="row">
       <div class="col-md-12">
           <h1 class="text-center" ng-controller="DateFormatController">What have you spent on today? {{dateDisplay}}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <expense-detail></expense-detail>
+      </div>
+      <div class="col-md-5">
+        <expense-input></expense-input>
       </div>
     </div>
   </div>

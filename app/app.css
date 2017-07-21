@@ -23,3 +23,26 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+.row-expense:nth-child(odd){
+  background: #eee;
+}
+
+.col-main {
+  margin: 5px;
+}
+
+.col-expense {
+  padding: 5px;
+  border: 1px solid #000;
+  flex: 1;
+  word-wrap: break-word;
+}
+
+.col-input {
+  padding: 10px;
+}
+
+.col-add {
+  text-align: center;
+}
