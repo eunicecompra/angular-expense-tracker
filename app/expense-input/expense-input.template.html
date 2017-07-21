@@ -1,0 +1,32 @@
+<div>
+    <div class="row">
+        <div class="col-xs-4 col-input">
+            Category
+        </div>
+       <div class="col-xs-8 col-input">
+             <select ng-model="$ctrl.category" ng-options="cat for cat in $ctrl.categories"></select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4 col-input">
+            Description
+        </div>
+        <div class="col-xs-8 col-input">
+            <input ng-model="$ctrl.desc" ></input>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4 col-input">
+            Cost
+        </div>
+        <div class="col-xs-8 col-input">
+            <input ng-model="$ctrl.cost" ></input>
+        </div>
+    </div>
+    <div>
+        <div class="col-xs-4 col-input"></div>
+        <div class="col-xs-8 col-add">
+            <button ng-click="">Add</button>
+        </div>
+    </div>
+</div>
