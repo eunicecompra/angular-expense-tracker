@@ -36,7 +36,8 @@
   padding: 5px;
   border: 1px solid #000;
   flex: 1;
-  word-wrap: break-word;
+  height:100%;
+  display:table-cell;
 }
 
 .col-input {

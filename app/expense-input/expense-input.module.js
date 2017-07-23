@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('expenseInput',[]);
+angular.module('expenseInput',['core']);
