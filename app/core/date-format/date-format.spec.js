@@ -4,7 +4,7 @@ describe('DateFormatController', function(){
 
     var ctrl, $scope;
 
-    beforeEach(module('dateFormat'));
+    beforeEach(module('core.dateFormat'));
 
     beforeEach(inject(function($rootScope, $controller) {
         var ExpenseDateServiceMock = {

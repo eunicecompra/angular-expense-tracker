@@ -1,7 +1,7 @@
 'use strict';
 
 // Define the `dateFormat` module
-var dateFormat = angular.module('dateFormat',['core.expense']);
+var dateFormat = angular.module('core.dateFormat',['core.expense']);
 
 dateFormat.controller('DateFormatController', function DateFormatController($scope, ExpenseDateService) {
     var d_names = ["Sunday","Monday", "Tuesday", "Wednesday",
